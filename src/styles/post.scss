@@ -1,8 +1,6 @@
 .post {
     background: #EDF7FA;
 
-    // &__container {}
-
     &__top {
         text-align: center;
         display: flex;
@@ -21,7 +19,26 @@
     }
 
     &__list {
-        
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        // justify-content: space-between;
+
+        margin-left: 148px;
+        margin-right: 156px;
+        padding-bottom: 32px;
+
+
+    }
+
+    &__item {
+        flex: 0 1 49%;
+        padding: 24px 21px 18px 23px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 4px;
+
+        width: 418px;
     }
 
     &__all {
@@ -39,13 +56,16 @@
     }
 
     &__title {
+        max-width: 374px;
         font-weight: 700;
         font-size: 26px;
         line-height: 38px;
 
-
         color: #21243D;
+        
+        margin-bottom: 27px;
 
+        cursor: pointer;
     }
 
     &__subtitle {
@@ -54,6 +74,7 @@
         line-height: 26px;
 
         color: #21243D;
+        margin-bottom: 17px;
     }
 
     &__text {
@@ -62,6 +83,7 @@
         line-height: 24px;
 
         color: #21243D;
+        margin-bottom: 7px;
 
     }
 
