@@ -3,6 +3,8 @@
 @use '../styles/works.scss';
 @use '../styles/header.scss';
 @use '../styles/nav.scss';
+@use '../styles/description.scss';
+@use '../styles/footer.scss';
 * {
   box-sizing: border-box;
 }
